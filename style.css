@@ -58,4 +58,33 @@ section {
 }
 #w211 .icons h3 {
   color: #fff;
+}
+@media screen and (max-width: 576px) {
+  #w211 h1, #w211 h2, #w211 h4, #w211 h5, #w211 h6 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0 20px 50px;
+  }
+  #w211 h1 {
+    font-size: 52px;
+  }
+  #w211 h4, #w211 h5 {
+    font-size: 45px;
+    margin: 50px 0 30px;
+  }
+  #w211 p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 0;
+  }
+  #w211 .icons {
+    margin-left: 82px;
+  }
+  #w211 i {
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 10px 14px;
+    margin: 20px 0px 0 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
