@@ -1,12 +1,11 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 .imgbox {
   overflow: hidden;
 }
-
 .imgbox img {
   width: 100%;
 }
@@ -15,43 +14,36 @@ section {
   padding: 80px 0;
 }
 
-#first {
+#w211 {
   background-color: #000;
 }
-
-#first h1, #first h2, #first h4, #first h5, #first h6 {
+#w211 h1, #w211 h2, #w211 h4, #w211 h5, #w211 h6 {
   color: #c52509;
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
 }
-
-#first h1, #first h4, #first h5 {
+#w211 h1, #w211 h4, #w211 h5 {
   font-size: 60px;
   color: #fff;
 }
-
-#first h4, #first h5 {
+#w211 h4, #w211 h5 {
   font-size: 50px;
   margin: 50px 0 30px;
 }
-
-#first .imgbox {
+#w211 .imgbox {
   margin-bottom: 20px;
 }
-
-#first p {
+#w211 p {
   text-align: center;
   font-size: 30px;
   color: #fff;
   margin: 25px 0 0 15px;
 }
-
-#first .icons {
+#w211 .icons {
   margin-left: 220px;
 }
-
-#first .icons i {
+#w211 .icons i {
   color: #fff;
   font-size: 22px;
   background-color: #da0a0a;
@@ -60,13 +52,10 @@ section {
   padding: 10px 14px;
   margin: 20px 0px 0 10px;
 }
-
-#first .icons i:hover {
+#w211 .icons i:hover {
   background-color: #000;
   cursor: pointer;
 }
-
-#first .icons h3 {
+#w211 .icons h3 {
   color: #fff;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
