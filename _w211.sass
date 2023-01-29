@@ -12,7 +12,27 @@
         font-size: 50px
         margin: 50px 0 30px
     .imgbox
-        margin-bottom: 20px
+        margin-top: 30px
+        position: relative
+        .overlay
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 65px
+            color: #fff
+            background-color: #c52509
+            position: absolute
+            top: 0
+            width: 100%
+            height: 100%
+            opacity: 0
+            transition: 0.8s
+            i
+                cursor: pointer
+            &:hover
+                opacity: 0.8
+                transition: 0.5s
+                cursor: pointer
     p
         text-align: center
         font-size: 30px
@@ -28,7 +48,9 @@
             border-radius: 50%
             padding: 10px 14px
             margin: 20px 0px 0 10px
+            transition: 1s
             &:hover
+                transition: 0,1s
                 background-color: #000
                 cursor: pointer
         h3
@@ -48,7 +70,7 @@
             text-align: center
             font-size: 30px
             color: #fff
-            margin: 0 0 
+            margin: 0 0
         .icons
             margin-left: 82px
         i
@@ -56,3 +78,4 @@
             border-radius: 50%
             padding: 10px 14px
             margin: 20px 0px 0 10px
+
