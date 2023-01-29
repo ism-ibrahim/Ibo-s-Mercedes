@@ -32,7 +32,30 @@ section {
   margin: 50px 0 30px;
 }
 #w211 .imgbox {
-  margin-bottom: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+#w211 .imgbox .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+  color: #fff;
+  background-color: #c52509;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.8s;
+}
+#w211 .imgbox .overlay i {
+  cursor: pointer;
+}
+#w211 .imgbox .overlay:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+  cursor: pointer;
 }
 #w211 p {
   text-align: center;
@@ -51,8 +74,10 @@ section {
   border-radius: 50%;
   padding: 10px 14px;
   margin: 20px 0px 0 10px;
+  transition: 1s;
 }
 #w211 .icons i:hover {
+  transition: 0, 1s;
   background-color: #000;
   cursor: pointer;
 }
